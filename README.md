@@ -1,4 +1,4 @@
-# QA Bot for Financial Data (RAG Model + Interactive Interface)
+# QA Bot for Financial Data (RAG Model + Interactive Interface) (PART - 2) (PART - 1 is in the plchatbot.ipynb file in the repo)
 
 ## Overview
 This project is a **Retrieval-Augmented Generation (RAG) model** designed as a **Question-Answering (QA) bot** for analyzing **Profit & Loss (P&L) statements** extracted from **PDF documents**. It retrieves relevant financial information and generates accurate responses using **Cohere LLM, FAISS, and HuggingFace embeddings**.
@@ -20,8 +20,7 @@ Additionally, the project includes an **interactive Gradio interface**, allowing
 ## **Setup Instructions**
 ### ** Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/qa-bot.git
-cd qa-bot
+git clone https://github.com/jenniferteresageorge/qa-bot.git
 ```
 
 ### ** Install Dependencies**
@@ -46,7 +45,7 @@ Gradio UI will be accessible at: **http://localhost:7860**
 
 ##  **Usage Instructions**
 ### **Locally (Python Script)**
-1. Place your **P&L PDF file** in the project folder.
+1. Place your **P&L PDF file** in the project folder. I already have one included in the repo, download and use that.
 2. Run the Python script:
    ```bash
    python app.py
@@ -96,20 +95,12 @@ Gradio UI will be accessible at: **http://localhost:7860**
    docker run -p 7860:7860 qa-bot
    ```
 
-### **Deploy on Cloud (AWS, GCP, Azure)**
-- Use **Docker Compose** or **Kubernetes** for scaling.
-- Mount **persistent storage** for uploaded PDFs.
-
----
 
 ##  **Example Queries & Outputs**
 ### **Example Questions**
  "What is the total revenue for Q2 2023?"
  "Show the operating margin for the past 6 months."
- "How do net income and expenses compare for Q1 2024?"
+ "How do net income and expenses compare for Q1 2024?" 
 
-### **Example Response**
- **Net Profit for Q3 2023:** $1.5M  
- **Operating Expenses for Q1 2024:** $500K  
- **Revenue Growth (Last 6 Months):** 12% Increase  
+ 
 
