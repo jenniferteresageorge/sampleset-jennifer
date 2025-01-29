@@ -20,7 +20,7 @@ Additionally, the project includes an **interactive Gradio interface**, allowing
 ## **Setup Instructions**
 ### ** Clone the Repository**
 ```bash
-git clone https://github.com/jenniferteresageorge/qa-bot.git
+git clone https://github.com/jenniferteresageorge/sampleset-jennifer.git
 ```
 
 ### ** Install Dependencies**
