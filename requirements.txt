@@ -1,0 +1,9 @@
+gradio
+PyPDF2==3.0.1
+langchain
+langchain_community
+langchain_google_genai
+langchain_text_splitters
+sentence-transformers
+faiss-cpu
+cohere
