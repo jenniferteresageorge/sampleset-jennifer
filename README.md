@@ -99,8 +99,9 @@ Gradio UI will be accessible at: **http://localhost:7860**
 ##  **Example Queries & Outputs**
 ### **Example Questions**
  "What is the total revenue for Q2 2023?"
- "Show the operating margin for the past 6 months."
- "How do net income and expenses compare for Q1 2024?" 
+ "What is the net profit for the last quarter? if not available, then calulate."
+ "What are the total expenses for Q2 2023?" 
+ "Show the revenue growth for the past year."
 
  
 
